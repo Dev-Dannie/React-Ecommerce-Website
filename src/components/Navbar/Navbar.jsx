@@ -11,6 +11,9 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <div className="wrapper">
+      <div className="center">
+          <Link className='link' to='/'>FLEXSHOP</Link>
+        </div>
         <div className="left">
           <div className="item">
             <img src="/images/flag.png" alt="" className='flagImg'/>
@@ -30,9 +33,7 @@ const Navbar = () => {
             <Link className='link' to='/categories/3'>Children</Link>
           </div>
         </div>
-        <div className="center">
-          <Link className='link' to='/'>FLEXSHOP</Link>
-        </div>
+        
         <div className="right">
         <div className="items">
           <Link className='link' to='/'>Homepage</Link>
